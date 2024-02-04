@@ -1,4 +1,4 @@
-#-------------------------WRITTEN BY MR-DEVIL--------------
+o#-------------------------WRITTEN BY MR-DEVIL--------------
 #-------------------------- Code by MR-ERROR&DEVIL-----------
 #-------------------Hello World -----------------------------
 #SC MAKED BY DEVIL
@@ -900,50 +900,4 @@ def rcrack(uid,pwx,tl):
 
 ##########
    
-def main_apv():
-    os.system("clear")
-    print(logo)
-    uuid = str(os.geteuid())
-    popy=('MR-NAYIM-404%s'%(uuid,uuid))
-    print(logo)
-    os.system("clear");print(logo)
-    print(f" Your Key : \x1b[1;31m"+popy)
-    print("\x1b[1;92m--------------------------------------------------")
-    try:
-        system = requests.get("https://github.com/TEAM-UCA/ap/blob/main/Devil.txt").text 
-        if popy in system:
-            print()
-            msg = str(os.geteuid()) 
-            time.sleep(1) 
-            menu()
-            pass 
-        else: 
-            print('\033[1;92m Now it will work well in all countries')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : DEVIL Tools Can buy in all countries!')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 8$ \033[1;92mApproval For 1 month')
-            print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 6$ \033[1;92mApproval For 15 days')
-            print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 3$ \033[1;92mApproval For 7 days \033[1;37m')
-            print('\033[1;92m-----------------------------------------------------')
-            Picchi = input(' Select Buy Option : ')
-            os.system("clear")
-            print(logo)
-            print(f" \033[1;92mYour Key :\033[31;1m{popy}")
-            print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
-            print("-----------------------------------------------------")
-            url_wa = "https://api.whatsapp.com/send?phone=+8801601770734&text="
-            choice = input(" Enter your choice  : ")
-            tks = ("Hi DEVIL Sir, I Need To Buy Your DEVIL Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
-            subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
-            print('-----------------------------------------------------\n Run again with permission from admin')
-            main_apv()
-    except: 
-        sys.exit()
-
-with SiamDEVIL(max_workers=30) as rhu:
- #   rhu.submit(sexy)
-    rhu.submit(main_apv)
-
-
-
+menu()
