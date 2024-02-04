@@ -180,7 +180,7 @@ import os,zlib
 
 from os import system as osRUB
 from os import system as cmd
-os.system('clear')
+
 print('         \x1b[38;5;46m WELCOME TO DEVIL WORLD          ')
 
 
@@ -275,7 +275,8 @@ logo=(f"""
 def linex():
         print('\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
 def clear():
-    os.system("clear")
+
+	
     print(logo)    
 
 
